@@ -1,0 +1,355 @@
+body {
+  overflow-x: hidden;
+}
+.main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/* contact section */
+.contact-section {
+  padding-bottom: 100px;
+}
+.contact__title-wrapper {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contact__address {
+  max-width: 985px;
+  font-size: 60px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.contact__details {
+  margin-top: 112px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -30px;
+  margin-left: -445px;
+}
+.contact__info > * {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+.contact__info h3 {
+  padding-top: 24px;
+  border-top: 2px solid rgb(0, 0, 0, 0.2);
+}
+.contact__group-content {
+  display: flex;
+  max-width: 772px;
+  gap: 15px;
+}
+.contact__group-content p {
+  width: 50%;
+}
+.contact_gps {
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid rgb(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+}
+.contact_worktime {
+  gap: 15px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+}
+.contact__gps-title {
+  width: 50%;
+}
+.contact__gps-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+}
+.contact__worktime-title {
+  width: 50%;
+  display: flex;
+}
+.contact__worktime-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+}
+.breadcrumb__link {
+  text-decoration: none;
+  color: black;
+}
+.breadcrumb__link:hover {
+  color: #cba265;
+  text-decoration: none;
+}
+
+/* carousel */
+.carousel {
+  height: 736px;
+}
+
+/* about section */
+#about {
+  margin-top: 40px;
+  width: 100%;
+  padding-block: 50px;
+}
+.about_head {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  text-decoration: none;
+  color: #cba265;
+}
+.question:hover {
+  text-decoration: none;
+  color: black;
+}
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.adres_link {
+  flex-grow: 1;
+  text-align: right;
+}
+.flex_box span {
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+.flex_box-inner {
+  margin-bottom: 150px;
+}
+.tel_link,
+.email_link,
+.adres_link {
+  font-size: 45px;
+  text-transform: uppercase;
+  color: black;
+}
+.tel_link:hover,
+.email_link:hover,
+.adres_link:hover {
+  color: #cba265;
+}
+.social_net_box {
+  display: flex;
+  gap: 20px;
+}
+#social {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#social:hover {
+  color: #cba265;
+  text-decoration: none;
+}
+.about_box {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+.about_box_content {
+  width: 296px;
+}
+.about_box_text {
+  width: 200px;
+  display: flex;
+  align-items: end;
+}
+.slider_scrollbar {
+  border-top: 2px solid rgb(0, 0, 0, 0.2);
+}
+.scrolling {
+  border-top: 8px solid rgb(203, 186, 101);
+  width: 295px;
+  margin-left: 0;
+}
+
+/* @media section */
+@media (max-width: 958px) {
+  .contact__details {
+    margin: 20px 5px -30px -200px;
+
+  }
+  #about {
+    margin-top: 55px;
+  }
+  .tel_link,
+  .email_link,
+  .adres_link {
+    font-size: 35px;
+  }
+  hr.slider_scrollbar:nth-last-of-type(1),
+  hr.slider_scrollbar:nth-last-of-type(2)
+  {
+      display: none;
+  }
+}
+
+@media (max-width: 766px) {
+  .contact__title-wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #social {
+    font-size: 25px;
+  }
+  .contact__address {
+    font-size: 45px;
+  }
+  .contact__label {
+    margin-right: 25px;
+    font-size: 16px;
+  }
+  .contact__note {
+    font-size: 14px;
+  }
+  .contact__info {
+    padding-left: 200px;
+    padding-right: 20px;
+  }
+  .contact__gps-title {
+    font-size: 22px;
+  }
+  .tel_link,
+  .email_link,
+  .adres_link {
+    font-size: 25px;
+  }
+  .about_box {
+    flex-direction: column;
+    display: flex;
+    margin-left: 200px;
+  }
+  .about_box_content p:first-of-type {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .about_box_content p:nth-of-type(2), .about_box_text p {
+    display: inline;
+    margin: 0;
+  }
+  .flex_box-inner {
+    margin-bottom: 230px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .contact__title-wrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact__address {
+    font-size: 28px;
+  }
+  .contact__label {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .contact__group-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact__group-content p {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+   .contact__additional-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact_gps,
+  .contact_worktime {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact__gps-title,
+  .contact__gps-coordinates,
+  .contact__worktime-title,
+  .contact__worktime-hours {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .show-slider-wrapper {
+    margin-top: -40px;
+  }
+  #about {
+    margin-top: 20px;
+  }
+  .tel_link,
+  .email_link,
+  .adres_link {
+    font-size: 21px;
+  }
+  .flex_box span:not(:last-of-type) {
+    margin-bottom: 5px;
+  }
+  #social {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .about_box {
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+  }
+  .about_box p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact__address {
+    font-size: 20px;
+  }
+  .contact__title-wrapper {
+    margin-top: 25px;
+  }
+  .about_box p {
+    font-size: 13px;
+  }
+  .contact__info-title,
+  .contact__gps-title,
+  .contact__worktime-title {
+    font-size: 18px;
+  }
+    .flex_box span {
+    display: none;
+  }
+  .flex_box {
+    justify-content: flex-start;
+  }
+  .flex_box a {
+    margin-left: 0;
+  }
+  .flex_box a.tel_link,
+  .flex_box a.email_link,
+  .flex_box a.adres_link {
+    display: block;
+    text-align: left;
+  }
+  #social {
+    margin-top: -15px;
+  }
+  .about_box {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
