@@ -181,7 +181,7 @@
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right,
 .swiper-3d .swiper-slide-shadow-top {
-    position: absolute;
+
     left: 0;
     top: 0;
     width: 100%;
@@ -213,7 +213,7 @@
 .swiper-lazy-preloader {
     width: 42px;
     height: 42px;
-    position: absolute;
+
     left: 50%;
     top: 50%;
     margin-left: -21px;
@@ -256,7 +256,7 @@
 
 .swiper-virtual.swiper-css-mode .swiper-wrapper::after {
     content: '';
-    position: absolute;
+
     left: 0;
     top: 0;
     pointer-events: none
@@ -278,7 +278,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    position: absolute;
+
     top: var(--swiper-navigation-top-offset, 50%);
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
     height: var(--swiper-navigation-size);
@@ -366,7 +366,7 @@
 }
 
 .swiper-pagination {
-    position: absolute;
+
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
@@ -516,7 +516,7 @@ button.swiper-pagination-bullet {
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
     background: var(--swiper-pagination-color, var(--swiper-theme-color));
-    position: absolute;
+
     left: 0;
     top: 0;
     width: 100%;
@@ -567,7 +567,7 @@ button.swiper-pagination-bullet {
 
 .swiper-horizontal>.swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-    position: absolute;
+
     left: var(--swiper-scrollbar-sides-offset, 1%);
     bottom: var(--swiper-scrollbar-bottom, 4px);
     top: var(--swiper-scrollbar-top, auto);
@@ -578,7 +578,7 @@ button.swiper-pagination-bullet {
 
 .swiper-scrollbar.swiper-scrollbar-vertical,
 .swiper-vertical>.swiper-scrollbar {
-    position: absolute;
+
     left: var(--swiper-scrollbar-left, auto);
     right: var(--swiper-scrollbar-right, 4px);
     top: var(--swiper-scrollbar-sides-offset, 1%);
@@ -628,7 +628,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper .swiper-notification {
-    position: absolute;
+
     left: 0;
     top: 0;
     pointer-events: none;
@@ -707,7 +707,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-cube .swiper-cube-shadow {
-    position: absolute;
+
     left: 0;
     bottom: 0px;
     width: 100%;
@@ -719,7 +719,7 @@ button.swiper-pagination-bullet {
 .swiper-cube .swiper-cube-shadow:before {
     content: '';
     background: #000;
-    position: absolute;
+
     left: 0;
     top: 0;
     bottom: 0;

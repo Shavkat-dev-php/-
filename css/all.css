@@ -2224,7 +2224,7 @@ h2 {
 .show-slider-wrapper {
   position: relative;
   overflow: hidden;
-  margin-right: -10px;
+
 }
 .show-slider-wrapper .swiper-slide {
   overflow: hidden;

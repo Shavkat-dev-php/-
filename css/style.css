@@ -25,8 +25,7 @@ body {
   margin-top: 112px;
   display: flex;
   justify-content: flex-end;
-  margin-right: -30px;
-  margin-left: -445px;
+
 }
 .contact__info > * {
   margin-top: 24px !important;
@@ -95,7 +94,11 @@ body {
   max-width: 1600px; /* slayderni kerakli kenglikda cheklash */
   margin: 25px auto;
 }
+.slider-wrap  {
+  max-width: 1600px; /* slayderni kerakli kenglikda cheklash */
+  margin: 0px auto;
 
+}
 /* about section */
 #about {
   margin-top: 40px;
