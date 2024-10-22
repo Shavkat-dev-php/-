@@ -91,6 +91,10 @@ body {
 .carousel {
   height: 736px;
 }
+.slider {
+  max-width: 1600px; /* slayderni kerakli kenglikda cheklash */
+  margin: 25px auto;
+}
 
 /* about section */
 #about {
